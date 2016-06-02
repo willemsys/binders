@@ -1,0 +1,29 @@
+B12_forces
+
+fig.
+b12_5045_topsolid.png
+b12_5042-top.png
+b12_5043-side.png
+
+Despite the coupling head being flexibly open at the top side it will stay closed when the connection is loaded. This is the main feature of this system.
+
+Changing the sizes is possible but a stable coupling head has to be assured, meaning that the head still has to be flexible and has to stay closed at a growing pulling force when it is connected.
+To achieve this the head has to be configurated in a certain way.
+
+The position of four estimated points, found at each of the symmatrical sides, are important, measured with a connected strip inside the head.
+The estimation must be made taking the resilience and thickness of the surrounding material into account.
+
+For the purpose of showing these four points an extra plane is placed inside a drawing. Only one side of the coupling head is visible.
+Drawing config1.stl and picture config1.jpg .
+
+The points are the estimated centres of the force between two parts:
+Point 1, at the front, is the centre of the pulling force in the front hinge connecting the sidepart and the bottom.
+Point 2, the middle top point, is the centre of the pressing force in the hinge connecting the pawl and the sidepart.
+Point 3, the middle low point, is the centre of the pressing force in the connecting area of the tip of the pawl and the pushing side of a tooth of the strip.
+Point 4, at the top of the back side is the centre of the pulling force in the connection of the pulling part at the back.
+
+Three properties of these points are important:
+- The line between points 2 and 4 has to be parallel to the central axe when looking from the top, or point 4 may be a bit more shifted towards the outside.
+- The line of the pawl, between 2 and 3 must show an angle of about 25 degrees to the central axe.
+- At the crossing point of the line between points 1 and 4 and the line of the pawl, between 2 and 3, the first line must be positioned more near the central axe.
+
